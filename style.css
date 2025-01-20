@@ -1,7 +1,7 @@
 /* Google fonts "Quicksand" load  */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
- /* Google fonts font-family: "Raleway", serif; load  */
+ /* Google fonts "Raleway" load  */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 
@@ -17,6 +17,7 @@
     box-sizing: border-box;
     font-family: "Quicksand", serif;
 }
+
 .hide{
     display: none;
 }
@@ -74,6 +75,7 @@
     border-radius: 12px;
     border: none;
     background-color: #FEA301;
+    cursor: pointer;
 }
 .menu i{
     font-size: 30px;
@@ -116,7 +118,231 @@
     border-radius: 12px;
     border: none;
     background-color: #111111;
+    cursor: pointer;
 }
+
+.curriculum-card{
+    width: 100%;
+    background-size: 105%;
+    background-image:url(./assets/bg.png);
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+}
+.card-items-container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.card-items-title{
+    font-size:2.875rem;
+    font-weight: 800;
+    line-height:3.59rem;
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.card{
+    width: 32%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+    padding: 70px 40px;
+    border-radius: 19px;
+}
+.card-title{
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 1.75rem;
+    color: rgba(32, 32, 32, 1);
+    margin-bottom: 33px;
+    margin-top: 40px;
+}
+.card-description{
+    font-size: 0.99rem;
+    font-weight: 500;
+    line-height: 1.77rem;
+    color: rgba(128, 128, 128, 1);
+    margin-bottom: 50px;
+    font-family: "Raleway", serif;
+}
+.card-btn{
+    font-size: 0.99rem;
+    font-weight: 800;
+    line-height:1.77rem;
+    border: none;
+    background-color:white;
+}
+.card-one{
+    background: linear-gradient(rgb(222, 245, 255) , rgb(255, 255, 255) ,  rgb(255, 255, 255));
+}
+.card-one button{
+    color: rgba(100, 200, 255, 1);
+    cursor: pointer;
+}
+.card-two{
+    background: linear-gradient(rgba(255, 244, 220, 1),rgba(255, 255, 255, 1),rgba(255, 255, 255, 1));
+}
+.card-two button{
+    color: rgba(240, 170, 0, 1);
+    cursor: pointer;
+}
+.card-three{
+    background: linear-gradient(rgba(242, 232, 255, 1),rgba(255, 255, 255, 1),rgba(255, 255, 255, 1));
+
+}
+.card-three button{
+    color: rgba(135, 0, 255, 1);
+    cursor: pointer;
+}
+.arrow{
+    margin: 80px 0 60px 0;
+}
+.arrow i{
+    color: #FEA301;
+    font-size: 54px;
+    padding: 0 5px;
+    line-height: 64px;
+}
+
+/* stories section styles start here  */
+.stories{
+    width: 100%;
+    margin-top: 80px;
+    padding: 60px 0px;
+    background: linear-gradient(rgba(255, 255, 255, 0.205),rgba(254, 161, 1, 0.13),rgba(254, 161, 1, 0.329)), url(./assets/bg.png);
+    border: 1px solid;
+}
+.stories-title{
+    text-align: center;
+    font-size: 2.875rem;
+    font-weight: 800;
+    line-height: 3.594rem;
+}
+.stories-container{
+    width: 80%;
+    margin: 80px auto;
+    display: flex;
+    gap: 20px;
+}
+.left-container{
+width: 40%;
+position: relative;
+
+}
+.left-img{
+    width: 100%;
+    height: 50%;
+}
+.left-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px 16px 0 0;
+}
+.left-content{
+    padding: 58px 38px 34px 38px;
+    background-color: #ffffff;
+    height: 50%;
+    border-radius: 0 0 16px 16px;
+}
+.left-content h2{
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 2.39rem;
+}
+.left-content p{
+    margin-top: 50px;
+    font-size: 0.99rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: #666666;
+}
+.left-btn button{
+    font-size: 0.99rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    font-family: "Raleway", serif;
+    color: white;
+    padding: 14px 20px;
+    background-color: rgba(60, 216, 232, 1);
+    border: none;
+    border-radius: 48px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+.right-container{
+    width: 55%;
+    display: grid;
+    gap:10px 40px;
+    padding:0 30px;
+    grid-template-columns: repeat(2 ,1fr);
+    grid-template-rows: repeat(2 ,1fr);
+}
+.right-one{
+    position: relative;
+}
+.right-one-img{
+    height: 60%;
+    width: 100%;
+}
+.right-one img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px 16px 0 0;
+}
+.right-one-content{
+    width: 100%;
+    height: 40%;
+    background-color: #ffffff;
+    font-size: 0.99rem;
+    line-height: 1.6rem;
+    font-weight: 800;
+    padding:67px;
+    padding-top: 50px;
+    border-radius: 0 0 16px 16px;
+}
+.right-one-btn  button{
+    font-size: 0.99rem;
+    line-height: 1.6rem;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Raleway", serif;
+    padding: 10px 18px;
+    background-color: rgba(149, 178, 38, 1);
+    border: none;
+    border-radius: 48px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    cursor: pointer;
+}
+.blue button{
+    background-color: rgba(93, 88, 240, 1);
+}
+#btn{
+    width: 100%;
+    text-align: center;
+}
+.stories-btn{
+    font-size: 1.25rem;
+    font-weight: 800;
+    line-height: 1.85rem;
+    color: white;
+    padding: 10px 50px;
+    background-color: #111111;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+
+
+
 
 /* Mobile responsive  */
 @media screen and (max-width:576px) {
@@ -149,7 +375,43 @@
     .banner-img{
         padding: 20px 10px;
     }
-    
+    .card-items-container{
+        width: 93%;
+    }
+    .card-container{
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+    }
+    .arrow{
+        display: none;
+    }
+    .stories-container{
+        width: 100%;
+    }
+    .left-container{
+        display: none;
+    }
+    .right-container{
+        width: 100%;
+        padding: 0;
+        gap: 10px;
+        margin: 0 10px;
+    }
+    .right-one-content{
+        padding: 30px 20px;
+        font-size: 15px;
+        line-height: 17px;
+        margin-bottom: 30px;
+    }
+    .right-one-btn  button{
+        font-size: 11px;
+        line-height: 14px;
+        font-weight: 500;
+        padding: 5px 10px;
+        width: 120px;
+    }
 }
 
 
