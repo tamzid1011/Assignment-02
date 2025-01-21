@@ -1,3 +1,6 @@
+/* =============================================
+            GOOGLE FONTS LOAD
+================================================ */
 /* Google fonts "Quicksand" load  */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
@@ -18,14 +21,14 @@
     font-family: "Quicksand", serif;
 }
 
-.hide{
-    display: none;
-}
 
-/* header section styles start  */
+/* =============================================
+            HEADER STYLE START
+================================================ */
 .header{
     width: 100%;
 }
+
 .nav{
     width: 80%;
     margin: 0 auto;
@@ -36,15 +39,22 @@
     align-items: center;
     
 }
+
 .nav-logo{
     display: flex;
     align-items: center;
     gap: 10px;
 }
+
 .nav-title{
     font-size: 2rem;
     font-weight: 700;
 }
+
+.menu{
+    display: none;
+}
+
 .nav-list{
     display: flex;
     gap: 2rem;
@@ -52,21 +62,27 @@
     font-size: 1.2rem;
     font-weight: 700;
 }
+
 .nav-list a{
     text-decoration: none;
 }
+
 .nav-item1 a{
     color: #FEA301;
 }
+
 .nav-item2 a{
     color: #01ACFD;
 }
+
 .nav-item3 a{
     color: #05D4DF;
 }
+
 .nav-item4 a{
     color: #5D58EF;
 }
+
 .nav-btn{
     font-size: 1.25rem;
     font-weight: 600;
@@ -77,9 +93,11 @@
     background-color: #FEA301;
     cursor: pointer;
 }
+
 .menu i{
     font-size: 30px;
 }
+
 
 .marque{
     width: 80%;
@@ -100,25 +118,31 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .banner img{
     width: 100%;
 }
+
 .banner-title{
     font-size: 3.5rem;
     font-weight: 800;
     line-height:3.81rem ;
     margin-bottom: 24px;
 }
+
 .orange{
     color: #FEA301;
 }
+
 .blue{
     color: #01ACFD;
 }
+
 .banner-description{
     font-size: 1.25rem;
     font-weight: 400;
 }
+
 .banner-btn{
     margin-top: 24px;
     font-size: 1.25rem;
@@ -131,6 +155,12 @@
     cursor: pointer;
 }
 
+
+
+
+/* =============================================
+            MAIN SECTIONS STYLE START
+================================================ */
 .curriculum-card{
     width: 100%;
     background-size: 105%;
@@ -138,11 +168,13 @@
     background-repeat: no-repeat;
     margin-bottom: 40px;
 }
+
 .card-items-container{
     width: 80%;
     margin: 0 auto;
     text-align: center;
 }
+
 .card-items-title{
     font-size:2.875rem;
     font-weight: 800;
@@ -150,17 +182,20 @@
     margin-top: 70px;
     margin-bottom: 80px;
 }
+
 .card-container{
     display: flex;
     justify-content: space-evenly;
     gap: 30px;
 }
+
 .card{
     width: 32%;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
     padding: 70px 40px;
     border-radius: 19px;
 }
+
 .card-title{
     font-size: 1.5rem;
     font-weight: 800;
@@ -169,6 +204,7 @@
     margin-bottom: 33px;
     margin-top: 40px;
 }
+
 .card-description{
     font-size: 0.99rem;
     font-weight: 500;
@@ -177,6 +213,7 @@
     margin-bottom: 50px;
     font-family: "Raleway", serif;
 }
+
 .card-btn{
     font-size: 0.99rem;
     font-weight: 800;
@@ -184,31 +221,39 @@
     border: none;
     background-color:white;
 }
+
 .card-one{
     background: linear-gradient(rgb(222, 245, 255) , rgb(255, 255, 255) ,  rgb(255, 255, 255));
 }
+
 .card-one button{
     color: rgba(100, 200, 255, 1);
     cursor: pointer;
 }
+
 .card-two{
     background: linear-gradient(rgba(255, 244, 220, 1),rgba(255, 255, 255, 1),rgba(255, 255, 255, 1));
 }
+
 .card-two button{
     color: rgba(240, 170, 0, 1);
     cursor: pointer;
 }
+
 .card-three{
     background: linear-gradient(rgba(242, 232, 255, 1),rgba(255, 255, 255, 1),rgba(255, 255, 255, 1));
 
 }
+
 .card-three button{
     color: rgba(135, 0, 255, 1);
     cursor: pointer;
 }
+
 .arrow{
     margin: 80px 0 60px 0;
 }
+
 .arrow i{
     color: #FEA301;
     font-size: 54px;
@@ -216,13 +261,19 @@
     line-height: 64px;
     transition: 0.3s;
 }
+
 .arrow i:hover{
     color: #ffffff;
     background-color: #FEA301;
     border-radius: 50%;
 }
 
-/* stories section styles start here  */
+
+
+
+/* =============================================
+        STORIES SECTION STYLE START
+================================================ */
 .stories{
     width: 100%;
     margin-top: 80px;
@@ -230,43 +281,51 @@
     background: linear-gradient(rgba(255, 255, 255, 0.205),rgba(254, 161, 1, 0.13),rgba(254, 161, 1, 0.329)), url(./assets/bg.png);
 
 }
+
 .stories-title{
     text-align: center;
     font-size: 2.875rem;
     font-weight: 800;
     line-height: 3.594rem;
 }
+
 .stories-container{
     width: 80%;
     margin: 80px auto;
     display: flex;
     gap: 20px;
 }
+
 .left-container{
     width: 40%;
     position: relative;
 
 }
+
 .left-img{
     width: 100%;
     height: 50%;
 }
+
 .left-container img{
     width: 100%;
     height: 100%;
     border-radius: 16px 16px 0 0;
 }
+
 .left-content{
     padding: 58px 38px 34px 38px;
     background-color: #ffffff;
     height: 50%;
     border-radius: 0 0 16px 16px;
 }
+
 .left-content h2{
     font-size: 1.5rem;
     font-weight: 800;
     line-height: 2.39rem;
 }
+
 .left-content p{
     margin-top: 50px;
     font-size: 0.99rem;
@@ -274,6 +333,7 @@
     line-height: 1.6rem;
     color: #666666;
 }
+
 .left-btn button{
     font-size: 0.99rem;
     font-weight: 500;
@@ -290,6 +350,7 @@
     transform: translate(-50%,-50%);
     cursor: pointer;
 }
+
 .right-container{
     width: 55%;
     display: grid;
@@ -298,18 +359,22 @@
     grid-template-columns: repeat(2 ,1fr);
     grid-template-rows: repeat(2 ,1fr);
 }
+
 .right-one{
     position: relative;
 }
+
 .right-one-img{
     height: 60%;
     width: 100%;
 }
+
 .right-one img{
     width: 100%;
     height: 100%;
     border-radius: 16px 16px 0 0;
 }
+
 .right-one-content{
     width: 100%;
     height: 40%;
@@ -321,6 +386,7 @@
     padding-top: 50px;
     border-radius: 0 0 16px 16px;
 }
+
 .right-one-btn  button{
     font-size: 0.99rem;
     line-height: 1.6rem;
@@ -337,13 +403,16 @@
     transform: translate(-50% ,-50%);
     cursor: pointer;
 }
+
 .blue button{
     background-color: rgba(93, 88, 240, 1);
 }
+
 #btn{
     width: 100%;
     text-align: center;
 }
+
 .stories-btn{
     font-size: 1.25rem;
     font-weight: 800;
@@ -357,13 +426,18 @@
 }
 
 
-/* footer styles start  */
+
+
+/* =============================================
+            FOOTER STYLE START
+================================================ */
 .footer{
     width: 100%;
     background-color: rgba(1, 172, 253, 1);
     padding-top: 130px;
     padding-bottom: 170px;
 }
+
 .footer-container{
     width: 80%;
     margin: 0 auto;
@@ -371,47 +445,57 @@
     justify-content: space-between;
     color: white;
 }
+
 .education img{
     height: 100px;
 }
+
 .footer-logo{
    display: flex;
    align-items: center;
 }
+
 .footer-title{
     font-size: 2.5rem;
     font-weight: 800;
     line-height: 2.5rem;
 }
+
 .footer-description{
     margin-top: 35px;
     font-size: 1.25rem;
     line-height: 1.7rem;
     font-weight: 400;
 }
+
 .about-title{
     font-size: 1.5rem;
     font-weight: 800;
     margin-bottom: 20px;
 }
+
 .footer-about li{
 
     padding-top: 20px;
 }
+
 .footer-about ul a{
     text-decoration: none;
     color: white;
     font-size: 1.25rem;
     font-weight: 500;
 }
+
 .social-title{
     font-size: 1.6rem;
     font-weight: 800;
     line-height: 1.6rem;
 }
+
 .social-icon{
     margin-top: 30px;
 }
+
 .social-icon img{
     margin: 0 5px;
     cursor: pointer;
@@ -420,7 +504,14 @@
 
 
 
-/* Mobile responsive  */
+
+
+
+
+
+/* =============================================
+            MOBILE RESPONSIVE
+================================================ */
 @media screen and (max-width:576px) {
     .nav{
         width: 100%;
@@ -432,6 +523,9 @@
     .nav-title
     {
         display: none;
+    }
+    .menu{
+        display:block;
     }
     .marque{
         width: 100%;
@@ -454,6 +548,10 @@
     .banner-img{
         padding: 20px 10px;
     }
+
+
+
+/* MAIN SECTION RESPONSIVE  */
     .card-items-container{
         width: 93%;
     }
@@ -466,6 +564,11 @@
     .arrow{
         display: none;
     }
+
+
+
+
+/* STORIES SECTION RESPONSIVE */
     .stories-container{
         width: 100%;
     }
@@ -498,6 +601,11 @@
         width: 120px;
         top: 50%;
     }
+
+
+
+
+/* FOOTER RESPONSIVE  */
     .footer-container{
         padding-left: 10px;
         width: 93%;
@@ -510,9 +618,117 @@
 }
 
 
-/* Only viewable on mobile  */
-@media screen and (min-width:576px) and (max-width:40000px) {
-    .menu{
+
+
+
+
+
+/* =============================================
+        MEDIUM DEVICE RESPONSIVE
+================================================ */
+@media screen and (min-width:576.001px) and (max-width:992px) {
+    .nav{
+        width: 100%;
+        padding: 0 19px 12px 16px;
+        border-bottom: 1px solid #FEA301;
+    }
+    .nav-list,
+    .button ,
+    .nav-title
+    {
         display: none;
+    }
+    .menu{
+        display:block;
+    }
+    .marque{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        width: 95%;
+    }
+    .banner-content{
+        text-align: center;
+    }
+    .banner-title{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    .banner-description{
+        font-size:0.875rem;
+        font-weight: 500;
+    }
+    .banner-img{
+        padding: 20px 10px;
+    }
+
+
+
+
+/* MAIN SECTION RESPONSIVE */
+    .card-items-container{
+        width: 93%;
+    }
+    .card-container{
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+    }
+    .arrow{
+        display: none;
+    }
+
+
+
+
+/* STORIES SECTION RESPONSIVE */
+    .stories-container{
+        width: 100%;
+    }
+    .left-container{
+        display: none;
+    }
+    .right-container{
+        grid-template-columns: repeat(3 ,1fr);
+        width: 100%;
+        padding: 0;
+        gap: 10px;
+        margin: 0 10px;
+    }
+    .right-one{
+        height: 400px;
+    }
+    .right-one-img{
+        height: 50%;
+    }
+    .right-one-content{
+        padding: 30px 20px;
+        font-size: 15px;
+        line-height: 17px;
+        margin-bottom: 30px;
+    }
+    .right-one-btn  button{
+        font-size: 11px;
+        line-height: 14px;
+        font-weight: 500;
+        padding: 5px 10px;
+        width: 120px;
+        top: 50%;
+    }
+
+
+
+/* FOOTER RESPONSIVE  */
+    .footer-container{
+        padding-left: 10px;
+        width: 93%;
+        flex-direction: column;
+        gap: 70px;
+    }
+    .footer-description{
+        font-size: 1.1rem;
     }
 }
