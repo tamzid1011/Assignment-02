@@ -334,7 +334,7 @@
     color: #666666;
 }
 
-.left-btn button{
+.left-btn p{
     font-size: 0.99rem;
     font-weight: 500;
     line-height: 1.6rem;
@@ -342,13 +342,11 @@
     color: white;
     padding: 14px 20px;
     background-color: rgba(60, 216, 232, 1);
-    border: none;
     border-radius: 48px;
     position: absolute;
     top: 50%;
     left:50%;
     transform: translate(-50%,-50%);
-    cursor: pointer;
 }
 
 .right-container{
@@ -390,7 +388,7 @@
     border-radius: 0 0 16px 16px;
 }
 
-.right-one-btn  button{
+.right-one-btn p{
     font-size: 0.99rem;
     line-height: 1.6rem;
     color: #ffffff;
@@ -398,16 +396,14 @@
     font-family: "Raleway", serif;
     padding: 10px 18px;
     background-color: rgba(149, 178, 38, 1);
-    border: none;
     border-radius: 48px;
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50% ,-50%);
-    cursor: pointer;
 }
 
-.blue button{
+.blue p{
     background-color: rgba(93, 88, 240, 1);
 }
 
@@ -596,7 +592,7 @@
         line-height: 17px;
         margin-bottom: 30px;
     }
-    .right-one-btn  button{
+    .right-one-btn  p{
         font-size: 11px;
         line-height: 14px;
         font-weight: 500;
@@ -715,7 +711,7 @@
         line-height: 17px;
         margin-bottom: 30px;
     }
-    .right-one-btn  button{
+    .right-one-btn p{
         font-size: 11px;
         line-height: 14px;
         font-weight: 500;
