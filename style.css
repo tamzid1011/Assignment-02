@@ -359,6 +359,9 @@
     grid-template-columns: repeat(2 ,1fr);
     grid-template-rows: repeat(2 ,1fr);
 }
+.hide-card{
+    display: none;
+}
 
 .right-one{
     position: relative;
@@ -601,7 +604,9 @@
         width: 120px;
         top: 50%;
     }
-
+    .hide-card{
+        display: block;
+    }
 
 
 
@@ -717,6 +722,9 @@
         padding: 5px 10px;
         width: 120px;
         top: 50%;
+    }
+    .hide-card{
+        display: block;
     }
 
 
