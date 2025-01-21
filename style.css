@@ -81,7 +81,17 @@
     font-size: 30px;
 }
 
-
+.marque{
+    width: 80%;
+    margin: 0 auto;
+    height: 50px;
+    background-color: #05D4DF;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
 
 .banner{
     width: 80%;
@@ -204,6 +214,12 @@
     font-size: 54px;
     padding: 0 5px;
     line-height: 64px;
+    transition: 0.3s;
+}
+.arrow i:hover{
+    color: #ffffff;
+    background-color: #FEA301;
+    border-radius: 50%;
 }
 
 /* stories section styles start here  */
@@ -212,7 +228,7 @@
     margin-top: 80px;
     padding: 60px 0px;
     background: linear-gradient(rgba(255, 255, 255, 0.205),rgba(254, 161, 1, 0.13),rgba(254, 161, 1, 0.329)), url(./assets/bg.png);
-    border: 1px solid;
+
 }
 .stories-title{
     text-align: center;
@@ -227,8 +243,8 @@
     gap: 20px;
 }
 .left-container{
-width: 40%;
-position: relative;
+    width: 40%;
+    position: relative;
 
 }
 .left-img{
@@ -341,6 +357,66 @@ position: relative;
 }
 
 
+/* footer styles start  */
+.footer{
+    width: 100%;
+    background-color: rgba(1, 172, 253, 1);
+    padding-top: 130px;
+    padding-bottom: 170px;
+}
+.footer-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.education img{
+    height: 100px;
+}
+.footer-logo{
+   display: flex;
+   align-items: center;
+}
+.footer-title{
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 2.5rem;
+}
+.footer-description{
+    margin-top: 35px;
+    font-size: 1.25rem;
+    line-height: 1.7rem;
+    font-weight: 400;
+}
+.about-title{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.footer-about li{
+
+    padding-top: 20px;
+}
+.footer-about ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.social-title{
+    font-size: 1.6rem;
+    font-weight: 800;
+    line-height: 1.6rem;
+}
+.social-icon{
+    margin-top: 30px;
+}
+.social-icon img{
+    margin: 0 5px;
+    cursor: pointer;
+}
+
 
 
 
@@ -356,6 +432,9 @@ position: relative;
     .nav-title
     {
         display: none;
+    }
+    .marque{
+        width: 100%;
     }
     .banner{
         flex-direction: column-reverse;
@@ -399,6 +478,12 @@ position: relative;
         gap: 10px;
         margin: 0 10px;
     }
+    .right-one{
+        height: 400px;
+    }
+    .right-one-img{
+        height: 50%;
+    }
     .right-one-content{
         padding: 30px 20px;
         font-size: 15px;
@@ -411,6 +496,15 @@ position: relative;
         font-weight: 500;
         padding: 5px 10px;
         width: 120px;
+        top: 50%;
+    }
+    .footer-container{
+        width: 93%;
+        flex-direction: column;
+        gap: 70px;
+    }
+    .footer-description{
+        font-size: 1.1rem;
     }
 }
 
