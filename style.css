@@ -499,6 +499,7 @@
         top: 50%;
     }
     .footer-container{
+        padding-left: 10px;
         width: 93%;
         flex-direction: column;
         gap: 70px;
