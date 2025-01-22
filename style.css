@@ -537,8 +537,8 @@
         text-align: center;
     }
     .banner-title{
-        font-size: 2rem;
-        line-height: 2.5rem;
+        font-size: 2.3rem;
+        line-height: 2.6rem;
     }
     .banner-description{
         font-size:0.875rem;
@@ -551,6 +551,10 @@
 
 
 /* MAIN SECTION RESPONSIVE  */
+    .card-items-title{
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
     .card-items-container{
         width: 93%;
     }
@@ -568,8 +572,12 @@
 
 
 /* STORIES SECTION RESPONSIVE */
+.stories-title{
+    font-size: 2rem;
+}
     .stories-container{
         width: 100%;
+        margin: 30px 0px;
     }
     .left-container{
         display: none;
@@ -607,6 +615,12 @@
 
 
 /* FOOTER RESPONSIVE  */
+.footer-title{
+    font-size: 2rem;
+}
+.education img{
+    height: 80px;
+}
     .footer-container{
         padding-left: 10px;
         width: 93%;
@@ -652,10 +666,6 @@
     }
     .banner-content{
         text-align: center;
-    }
-    .banner-title{
-        font-size: 2rem;
-        line-height: 2.5rem;
     }
     .banner-description{
         font-size:0.875rem;
